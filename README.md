@@ -4,3 +4,5 @@ UIT Trend design <br />
 Тип проекта: WD <br />
 Сложность: Trend <br />
 Back-End: под WordPress <br />
+
+Установить зависимости <b>npm i</b>
