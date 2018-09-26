@@ -1,0 +1,160 @@
+$green: #75CD22;
+$grey_p: #666666;
+
+.head {
+    height: 117px;
+    overflow: hidden;
+    position: relative;
+    box-shadow:  0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    &:after {
+        content: '';
+        height: 32px;
+        background: $green;
+        width: 50%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    &__logo {
+        display: flex;
+        justify-content: center;
+        &--img {
+            width: 200px;
+        }
+    }
+    &__nav {
+       
+        &_hrefs {
+            height: 85px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;  
+            &--href {
+                font-family: 'rlight';
+                font-size: 15px;
+                color: $grey_p;
+                //transition: .4s ease-in;
+                &:hover {
+                    font-family: '';
+                    font-family: 'rbold';
+                    color: $grey_p;
+                    //text-decoration: none;
+                    letter-spacing: -0.2px;
+                    
+                }
+            }
+            span {
+                width: 1px;
+                height: 14px;
+                background: #dcdfdf;
+            }
+            .switch-langs {
+                a {
+                    font-family: 'glight';
+                    color: $grey_p;
+                    font-size: 15px;
+                }
+                .active {
+                    font-size: 16px;
+                    font-family: 'gbold';
+                    color: $green;
+                }
+            }
+        }
+        &_green-line {
+            background: $green;
+            text-align: right;
+            height: 32px;
+            padding-right: 30px;
+            padding-top: 2px;
+            position: relative;
+            &:before {
+                content: '';
+                height: 50px;
+                width: 25px;
+                background: $green;
+                position: absolute;
+                left: -19px;
+                top: 2px;
+                transform: rotate(40deg);
+            }
+            a {
+                font-family: 'glight';
+                font-size: 14px;
+                color: #fff;
+                position: relative;
+            }
+            &--phone {
+                &:before {
+                    content: url('../img/phone.svg');
+                    position: absolute;
+                    width: 14px;
+                    height: 14px;
+                    left: -20px;
+                    top: -2px;
+                }
+            }
+            &--mail {
+                margin-left: 50px;
+                &:before {
+                    content: url('../img/email.svg');
+                    position: absolute;
+                    width: 14px;
+                    height: 14px;
+                    left: -20px;
+                    top: -2px;
+                }
+            }
+        }
+    }
+}
+
+// breadcamps
+
+.breads {
+    height: 200px;
+    background: url('../img/pattern.svg');
+    background-size: cover;
+    border-bottom: 1px solid #eceeed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //justify-content: center;
+    &__wrap {
+       
+        padding: 30px 0;
+        margin-bottom: 25px;
+        position: relative;
+        &:after {
+            content: '';
+            position: absolute;
+            border-bottom: 2px solid $green;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            max-width: 120px;
+        }
+        a {
+            margin: 0 20px;
+            font-family: 'glight';
+            font-weight: bold;
+            font-size: 14px;
+            color: $grey_p;
+        }
+        .curent {
+            color: $green;
+        }
+    }
+    &--title {
+        font-family: 'gbold';
+        font-size: 38px;
+        color: $grey_p;
+    }
+}
+
+.b {
+    border: 1px solid slateblue;
+    box-sizing: border-box;
+}
