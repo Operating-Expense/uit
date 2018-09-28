@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Geometria-light;
+    src: url(../fonts/Geometria-Light.ttf);
+}
+@font-face {
+    font-family: Geometria-bold;
+    src: url(../fonts/Geometria-Bold.ttf);
+}
+.blog{
+	background: url(../img/pattern.svg);
+	background-size: cover;
+	border-bottom: 2px solid #f4f4f4;
+}
+.blog__item{
+	display: inline-block;
+	margin-right: 10px;
+}
+.blog__list{
+	text-align: center;
+	padding-top: 35px;
+}
+.blog__list a{
+	font-family: Geometria-light;
+	font-size: 14px;
+	color: #666666;
+}
+.blog__list a:hover{
+	color: #8bc53f;
+}
+.blog__dec{
+	width: 120px;
+	border-bottom: 2px solid #8acf07;
+	margin:0 auto;
+	margin-top: 20px;
+}
+.blog__header{
+	text-align:center;
+	margin-top: 20px;
+	padding-bottom: 70px;
+	font-family: Geometria-bold;
+	font-size: 38px;
+	color: #495651;
+}
+.prices__date{
+	padding-top: 90px;
+	position: relative;
+}
+.prices__date p{
+	font-family: Geometria-light;
+	font-size: 14px;
+	color: #494949;
+	display: inline-block;
+	margin-right: 85px;
+}
+.prices__date__a{
+	position:absolute;
+	right: -85px;
+}
+.prices__date__a a{
+	font-family: Geometria-bold;
+	font-size: 16px;
+	color: #495651;
+}
+.prices__dec{
+	width: 120px;
+	border-bottom: 2px solid #8acf07;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+.prices__date span{
+	width:10px;
+	height: 10px;
+	display: inline-block;
+	background-image: url(../img/back.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+}
+.prices__grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 50px;
+	margin-bottom: 130px;
+}
+.grid__first h1{
+	font-family: Geometria-bold;
+	font-size: 45px;
+	color: #495651;
+}
+.grid__first p{
+	font-family: Geometria-light;
+	font-size: 14px;
+	color: #666666;
+}
+.grid__second{
+	background-image: url(../img/table.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.subscribe{
+	background-color: #f6f6f6;
+	position: relative;
+}
+.subscribe__grid{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 50px;
+	padding-bottom: 110px;
+}
+.sgrid__a, .sgrid__b{
+	margin-top: 130px;
+}
+.sgrid__b{
+	margin-top: 165px;
+}
+.sgrid__a h3{
+	font-family: Geometria-bold;
+	font-size: 30px;
+	color: #495651;
+}
+.sgrid__a p{
+	font-family: Geometria-light;
+	font-size: 14px;
+	color: #494949;
+}
+.form__email{
+	width:350px;
+	height: 67px;
+	padding-left: 30px;
+	background-color: #cacaca;
+	box-sizing: border-box;
+	border: none;
+	font-family: Geometria-light;
+	font-size: 14px;
+	color: #494949;
+
+}
+.form__button{
+	width:350px;
+	height: 67px;
+	background-color: #ffffff;
+    border: none;
+    color: #495651;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    font-family: Geometria-bold;
+	font-size: 18px;
+	color: #495651;
+	cursor: pointer;
+}
+.subscribe__logo{
+	position: absolute;
+	right: 0;
+	top: 55px;
+}
