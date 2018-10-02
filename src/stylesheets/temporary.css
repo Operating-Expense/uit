@@ -271,19 +271,3 @@
 	width:240px;
 	height: 270px;
 }
-.head__nav_hrefs{
-	position: relative;
-}
-.test__callmenu:hover > .test__dropmenu{
-	display: block;
-}
-.test__dropmenu{
-	position: absolute;
-	width:100px;
-	height: 100px;
-	background-color: #fff;
-	top: 50px;
-	left: 122px;
-	z-index: 1;
-	display: none;
-}
