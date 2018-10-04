@@ -1,0 +1,168 @@
+.breads--title__mine{
+	text-align: center;
+	position: relative;
+	bottom: 20px;
+}
+.accounting{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	position: relative;
+	height:600px;
+}
+.accounting__gr__line{
+	margin-top: 120px;
+	height: 1px;
+	width: 120px;
+	background-color: #8acf07;
+}
+.accounting__bg{
+	font-family: gheavy;
+	font-size: 145px;
+	color: #495651;
+	text-transform: uppercase;
+	opacity: 0.1;
+	position: absolute;
+	top: 50px;
+}
+.accounting__naming{
+	font-family: gbold;
+	font-size: 39px;
+	color: #495651;
+	text-transform: uppercase;
+	position: absolute;
+	width:670px;
+	top: 155px;
+}
+.accounting__text{
+	color: #666666;
+	font-family: glight;
+	font-size: 14px;
+	position: absolute;
+	width: 540px;
+	top: 320px;
+}
+.accounting__computers{
+	width:568px;
+	height: 380px;
+	position: relative;
+	top: 82px;
+	left: 195px;
+}
+.functions{
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+.functions__line{
+	height: 1px;
+	width: 120px;
+	background-color: #8acf07;
+	margin: 0 auto;
+	position: relative;
+	top: -132px;
+}
+.functions__bg{
+	font-family: gheavy;
+	font-size: 145px;
+	color: #495651;
+	text-transform: uppercase;
+	opacity: 0.1;
+	text-align: center;
+	position: relative;
+	top: -200px;
+}
+.functions__naming{
+	font-family: gbold;
+	font-size: 45px;
+	color: #495651;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.filesbuh{
+	margin-top: -150px;
+	margin-left: -14px;
+	width:568px;
+}
+.functions ul{
+	margin-top: 50px;
+	width:900px;
+}
+.functions ul li{
+	color: #8bc53f;
+	margin-top: 10px;
+}
+.functions ul li span{
+	color: #494949;
+	font-family: glight;
+	font-size: 14px;
+}
+.consult{
+	display: grid;
+	grid-template-columns: 390px 1fr;
+	grid-gap: 60px;
+	position: relative;
+	padding-bottom: 100px;
+}
+.consult__line{
+	font-family: gbold;
+	font-size: 30px;
+	color: #495651;
+	margin-top: 115px;
+}
+.consult__text{
+	color: #494949;
+	font-family: glight;
+	font-size: 14px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.consult__textbold{
+	color: #494949;
+	font-family: gbold;
+	font-size: 16px;
+	margin-bottom: 115px;
+}
+.consult__white{
+	background-color: #f6f6f6;
+}
+.form__email{
+	width:320px;
+	height: 65px;
+	padding-left: 30px;
+	background-color: #cacaca;
+	box-sizing: border-box;
+	border: none;
+	font-family: glight;
+	font-size: 14px;
+	color: #494949;
+	margin-bottom: 2px;
+
+}
+.form__button{
+	width:320px;
+	height: 65px;
+	background-color: #ffffff;
+    border: none;
+    color: #495651;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    font-family: gbold;
+	font-size: 18px;
+	color: #495651;
+	cursor: pointer;
+}
+.consult__gr1text{
+	color:#495651;
+	font-family: gbold;
+	font-size: 16px;
+	margin-top: 130px;
+}
+.consult__img{
+	position: absolute;
+	right: -180px;
+	top: 105px;
+	width:240px;
+	height: 270px;
+}
