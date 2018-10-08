@@ -440,3 +440,93 @@
 .clients__grida{
 	margin-top: -300px;
 }
+.reviews__butt{
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+.reviews__button{
+	font-family: gbold;
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 10px 50px;
+	box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.4);
+	border-radius: 3px;
+	transition: 0.5s;
+}
+.reviews__button:hover{
+	color: #8bc53f;
+	transition: 0.5s;
+	box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.8);
+}
+.consult{
+	display: grid;
+	grid-template-columns: 390px 1fr;
+	grid-gap: 60px;
+	position: relative;
+	padding-bottom: 100px;
+}
+.consult__grey{
+	background-color: #f6f6f6;
+}
+.consult__line{
+	font-family: gbold;
+	font-size: 30px;
+	color: #495651;
+	margin-top: 115px;
+}
+.consult__text{
+	color: #494949;
+	font-family: glight;
+	font-size: 14px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.consult__textbold{
+	color: #494949;
+	font-family: gbold;
+	font-size: 16px;
+	margin-bottom: 115px;
+}
+.form__email{
+	width:320px;
+	height: 65px;
+	padding-left: 30px;
+	background-color: #cacaca;
+	box-sizing: border-box;
+	border: none;
+	font-family: glight;
+	font-size: 14px;
+	color: #494949;
+	margin-bottom: 2px;
+
+}
+.form__button{
+	width:320px;
+	height: 65px;
+	background-color: #ffffff;
+    border: none;
+    color: #495651;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    font-family: gbold;
+	font-size: 18px;
+	color: #495651;
+	cursor: pointer;
+}
+.consult__gr1text{
+	color:#495651;
+	font-family: gbold;
+	font-size: 16px;
+	margin-top: 130px;
+}
+.consult__img{
+	position: absolute;
+	right: -180px;
+	top: 105px;
+	width:240px;
+	height: 270px;
+}
