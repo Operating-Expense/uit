@@ -19,6 +19,9 @@
 	position: absolute;
 	top: 50px;
 }
+.breads__wrap__margin{
+	margin: -15px !important;
+}
 .accounting__naming{
 	font-family: gbold;
 	font-size: 45px;

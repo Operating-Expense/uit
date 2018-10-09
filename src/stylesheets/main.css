@@ -9548,7 +9548,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .head {
   height: 117px;
-  overflow: hidden;
   position: relative;
   -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
           box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
@@ -9635,10 +9634,10 @@ a.text-dark:hover, a.text-dark:focus {
   content: '';
   height: 50px;
   width: 25px;
-  background: #75CD22;
+  background: #fff;
   position: absolute;
-  left: -19px;
-  top: 2px;
+  left: -6px;
+  top: -21px;
   -webkit-transform: rotate(40deg);
           transform: rotate(40deg);
 }
@@ -9670,6 +9669,175 @@ a.text-dark:hover, a.text-dark:focus {
   height: 14px;
   left: -20px;
   top: -2px;
+}
+
+.head__nav_hrefs ul {
+  list-style: none;
+}
+
+.head__nav_hrefs ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.head__nav_hrefs ul li span {
+  display: inline-block;
+  height: 12px;
+  width: 1px;
+  background-color: #grey;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.drop__menu {
+  position: absolute;
+  left: -650px;
+  top: 20px;
+  width: 99vw;
+  height: 530px;
+  z-index: 1;
+  background-color: #fff;
+  opacity: 0.9;
+  padding-top: 50px;
+  padding-left: 210px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  display: none;
+}
+
+.drop__menu ul li {
+  display: block;
+}
+
+.drop__menu ul li a {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'rlight';
+  color: #666666;
+  font-size: 15px;
+}
+
+.drop__menu ul li a:hover {
+  font-weight: bold;
+}
+
+.drop__menu ul li::before {
+  content: "";
+  width: 350px;
+  height: 1px;
+  display: block;
+  background-color: grey;
+}
+
+.drop__menu ul li:last-child::after {
+  content: "";
+  width: 350px;
+  height: 1px;
+  display: block;
+  background-color: grey;
+}
+
+.head__nav_hrefs--href-about:hover > .drop__menu {
+  display: block;
+}
+
+.drop__menu__1c {
+  position: absolute;
+  left: 360px;
+  top: -132px;
+  width: 400px;
+  height: 380px;
+  z-index: 1;
+  opacity: 0.9;
+  -webkit-transition: 1s;
+  transition: 1s;
+  display: block;
+}
+
+.drop__menu__1c ul li {
+  display: block;
+}
+
+.drop__menu__1c ul li a {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'rlight';
+  color: #666666;
+  font-size: 15px;
+}
+
+.drop__menu__1c ul li a:hover {
+  font-weight: bold;
+}
+
+.menu__mobile__img {
+  position: absolute;
+  left: 810px;
+  top: -116px;
+  opacity: 1;
+}
+
+.drop__menu__posl {
+  position: absolute;
+  left: -770px;
+  top: 95px;
+  width: 99vw;
+  height: 530px;
+  z-index: 1;
+  background-color: #fff;
+  opacity: 0.9;
+  padding-top: 50px;
+  padding-left: 210px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  display: none;
+}
+
+.drop__menu__posl ul li {
+  display: block;
+}
+
+.drop__menu__posl ul li a {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'rlight';
+  color: #666666;
+  font-size: 15px;
+}
+
+.drop__menu__posl ul li a:hover {
+  font-weight: bold;
+}
+
+.drop__menu__posl ul li::before {
+  content: "";
+  width: 350px;
+  height: 1px;
+  display: block;
+  background-color: grey;
+}
+
+.drop__menu__posl ul li:last-child::after {
+  content: "";
+  width: 350px;
+  height: 1px;
+  display: block;
+  background-color: grey;
+}
+
+.menu__poslug__img {
+  position: absolute;
+  left: 750px;
+  top: 30px;
+  opacity: 1;
+  z-index: 2;
+}
+
+.head__nav_hrefs--href-posl:hover > .drop__menu__posl {
+  display: block;
 }
 
 .breads {
@@ -9707,7 +9875,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .breads__wrap a {
-  margin: 0 5px;
+  margin: 0 20px;
   font-family: 'glight';
   font-weight: bold;
   font-size: 14px;
@@ -11308,7 +11476,7 @@ footer {
       grid-template-columns: 1fr 3fr;
   -ms-grid-columns: 1fr 1fr 2fr;
       grid-template-columns: 1fr 1fr 2fr;
-      grid-template-areas: 'side nav nav nav' 'side spilka form form';
+      grid-template-areas: 'side nav nav nav' 'side spilka form form';
 }
 
 .foot__nav_side {
@@ -11451,5 +11619,4 @@ footer {
   right: 0;
   top: 0;
 }
-
 /*# sourceMappingURL=main.css.map */

@@ -10,6 +10,9 @@
 	width: 120px;
 	background-color: #8acf07;
 }
+.breads__wrap__margin{
+	margin: -15px !important;
+}
 .onec__bg{
 	font-family: gheavy;
 	font-size: 145px;

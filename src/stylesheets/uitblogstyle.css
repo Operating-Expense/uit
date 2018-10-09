@@ -6,6 +6,9 @@
     font-family: Geometria-bold;
     src: url(../fonts/Geometria-Bold.ttf);
 }
+.breads__wrap__margin{
+	margin: -15px !important;
+}
 .blog{
 	background: url(../img/pattern.svg);
 	background-size: cover;
